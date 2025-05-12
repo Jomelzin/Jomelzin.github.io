@@ -15,7 +15,7 @@ header{
     display: flex;
     position: fixed;
     width: 70%;
-    background-color: rgba(20,20,22,255);
+    background-color: rgba(20,20,22,255);;
     height: 100px;
     margin-top: 10px;
     border-radius: 50px;
@@ -68,7 +68,7 @@ nav a:hover{
 .logo img{
     width: 200px;
     height: auto;
-    border-radius: 150px;
+    border-radius: 1000px;
     border: rgba(20,20,22,255) 10px solid;
     margin-top:150px;
     animation: rotation 5s linear infinite;
@@ -94,7 +94,6 @@ nav a:hover{
 
 .New {
     display: flex;
-    flex-direction: row;
     background-color: transparent;
     width: 800px;
     height: 100vh;
@@ -111,12 +110,15 @@ iframe{
     border: none;
 }
 .sec1 {
-    flex: 0 0 auto; /* evita que se reduzca o crezca con flex */
+    display: flex;
     width: 100%;
     min-width: 300px;
     height: 50%;
     min-height: 400px;
     background-color: rgba(20,20,22,255);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -175,4 +177,5 @@ iframe{
         display: none;
     }
 }
+
 
