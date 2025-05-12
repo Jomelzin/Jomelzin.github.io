@@ -186,3 +186,8 @@ iframe{
         display: none;
     }
 }
+@media screen and (orientation: landscape) {
+  header{
+    display: none;
+  }
+}
