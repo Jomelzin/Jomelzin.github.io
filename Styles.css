@@ -15,7 +15,7 @@ header{
     display: flex;
     position: fixed;
     width: 70%;
-    background-color: rgba(20,20,22,255);;
+    background-color: rgba(20,20,22,255);
     height: 100px;
     margin-top: 10px;
     border-radius: 50px;
@@ -102,9 +102,7 @@ nav a:hover{
     align-items: center;
     gap: 10px;
     padding: 0px 10px;
-    
     margin-top: 100px;
-    
 }
 iframe{
     width: 90%;
