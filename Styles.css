@@ -190,4 +190,7 @@ iframe{
   header{
     display: none;
   }
+  body{
+      overflow: visible;
+  }  
 }
