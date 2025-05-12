@@ -119,15 +119,6 @@ iframe{
     height: 50%;
     min-height: 400px;
     background-color: rgba(20,20,22,255);
-
-;
-    border-radius: 35px;
-    scroll-snap-align: start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
 }
 
 
